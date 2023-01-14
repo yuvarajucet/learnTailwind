@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Index-Tailwind Practice</title>
+</head>
+
+<body class="p-3 md:p-5 text-gray-800">
+    <section class="bg-purple-100 p-4 rounded mb-10">
+        <div class="container mx-auto">
+            <div class="flex">
+                <a href="/index.html" class="text-2xl mt-1 font-semibold lg:text-4xl">Tailwind-Site</a>
+                <div class="ml-auto">
+                    <button class="md:hidden pt-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd"
+                                d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <ul class="hidden font-semibold text-gray-600 md:flex lg:text-2xl">
+                        <li class="font-semibold pr-5 m-2"><a class="px-3 py-1" href="">Home</a></li>
+                        <li class="font-semibold pr-5 m-2"><a class="px-3 py-1" href="">Project</a></li>
+                        <li class="font-semibold pr-5 m-2"><a class="px-3 py-1" href="">Achievement</a></li>
+                        <li class="font-semibold pr-5 m-2"><a class="px-3 py-1" href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hidden">
+                <ul class="md:hidden font-semibold text-gray-600">
+                    <li class="font-semibold  mt-2"><a class="py-1" href="">Home</a></li>
+                    <li class="font-semibold  mt-2"><a class="py-1" href="">Project</a></li>
+                    <li class="font-semibold  mt-2"><a class="py-1" href="">Achievement</a></li>
+                    <li class="font-semibold  mt-2"><a class="py-1" href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex py-12 md:py-36">
+                <div class=" w-full md:w-1/2">
+                    <h2 class="text-center md:text-left text-3xl md:text-7xl font-semibold">
+                        Hi this is Yuvaraj and contact me with this!
+                    </h2>
+                    <p class="text-center md:text-left mt-4 md:mt-8 text-2xl text-gray-600">
+                        Someting about me!
+                    </p>
+                    <div class="flex mt-12 justify-center md:justify-start">
+                        <a class="mr-5 text-lg bg-red-600 text-white px-3 py-2 rounded" href="">Project</a>
+                        <a class="mr-5 text-lg bg-purple-600 text-white px-3 py-2 rounded" href="">Contact Me</a>
+                    </div>
+                </div>
+                <div class="w-1/2 hidden md:flex">
+                    <img src="./assets/hero2.svg" alt="image">
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd"
+                        d="M20.03 4.72a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 11.69l6.97-6.97a.75.75 0 011.06 0zm0 6a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06L12 17.69l6.97-6.97a.75.75 0 011.06 0z"
+                        clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">
+                    Scroll down
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="bg-red-100 p-4 rounded mb-10">
+        <div class="container mx-auto border-black">
+            <div class="pyt-16 md:py-28">
+                <h1 class="text-center text-3xl md:text-5xl font-bold">
+                    Our Services
+                </h1>
+                <p class="md:w-1/2 text-center mx-auto mt-5">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur nisi sint, eligendi numquam
+                    nobis harum repudiandae dolorem consequatur quod, natus, a veritatis odit voluptate eos. Beatae,
+                    odit! Minima, beatae quas?
+                </p>
+            </div>
+            <div class="flex flex-wrap pb-16  md:pb-28 justify-center">
+                <div class="w-full lg:w-1/2 xl:w-1/3 py-5 md:p-5">
+                    <div class="bg-white p-10 rounded-2xl shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="w-10 h-10 text-black-400">
+                            <path fill-rule="evenodd"
+                                d="M8.478 1.6a.75.75 0 01.273 1.025 3.72 3.72 0 00-.425 1.122c.058.057.118.114.18.168A4.491 4.491 0 0112 2.25c1.413 0 2.673.651 3.497 1.668.06-.054.12-.11.178-.167a3.717 3.717 0 00-.426-1.126.75.75 0 111.298-.75 5.22 5.22 0 01.671 2.045.75.75 0 01-.187.582c-.241.27-.505.52-.787.749a4.495 4.495 0 01.216 2.1c-.106.792-.753 1.295-1.417 1.403-.182.03-.364.057-.547.081.152.227.273.476.359.741a23.122 23.122 0 003.832-.802 23.241 23.241 0 00-.345-2.634.75.75 0 011.474-.28c.21 1.115.348 2.256.404 3.418a.75.75 0 01-.516.749c-1.527.5-3.119.855-4.76 1.05-.074.38-.22.735-.423 1.05a24.61 24.61 0 015.943 1.358.75.75 0 01.492.75 24.665 24.665 0 01-1.189 6.25.75.75 0 01-1.425-.47 23.141 23.141 0 001.077-5.307c-.5-.168-1.009-.32-1.524-.454.068.234.104.484.104.746 0 3.956-2.521 7.5-6 7.5-3.478 0-6-3.544-6-7.5 0-.262.037-.511.104-.746-.514.134-1.022.286-1.522.454a23.14 23.14 0 001.077 5.308.75.75 0 01-1.425.468 24.663 24.663 0 01-1.19-6.25.75.75 0 01.493-.749 24.593 24.593 0 014.964-1.24h.01c.321-.046.644-.085.969-.118a2.982 2.982 0 01-.424-1.05 24.614 24.614 0 01-4.76-1.05.75.75 0 01-.516-.75c.057-1.161.194-2.302.405-3.417a.75.75 0 011.474.28c-.164.862-.28 1.74-.345 2.634 1.237.37 2.517.641 3.832.802.085-.265.207-.514.359-.74a18.732 18.732 0 01-.547-.082c-.664-.108-1.311-.611-1.417-1.403a4.535 4.535 0 01.217-2.103 6.788 6.788 0 01-.788-.751.75.75 0 01-.187-.583 5.22 5.22 0 01.67-2.04.75.75 0 011.026-.273z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <h3 class="text-2xl font-bold">Pentesting</h3>
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, officiis esse. Veritatis,
+                            velit excepturi unde, corporis quas autem repellendus, tempore in vero expedita nostrum
+                            sunt! Earum fuga recusandae quisquam voluptas.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 py-5 md:p-5">
+                    <div class="bg-white p-10 rounded-2xl shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="w-10 h-10 text-blue-400">
+                            <path fill-rule="evenodd"
+                                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM6.262 6.072a8.25 8.25 0 1010.562-.766 4.5 4.5 0 01-1.318 1.357L14.25 7.5l.165.33a.809.809 0 01-1.086 1.085l-.604-.302a1.125 1.125 0 00-1.298.21l-.132.131c-.439.44-.439 1.152 0 1.591l.296.296c.256.257.622.374.98.314l1.17-.195c.323-.054.654.036.905.245l1.33 1.108c.32.267.46.694.358 1.1a8.7 8.7 0 01-2.288 4.04l-.723.724a1.125 1.125 0 01-1.298.21l-.153-.076a1.125 1.125 0 01-.622-1.006v-1.089c0-.298-.119-.585-.33-.796l-1.347-1.347a1.125 1.125 0 01-.21-1.298L9.75 12l-1.64-1.64a6 6 0 01-1.676-3.257l-.172-1.03z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <h3 class="text-2xl font-bold">Web development</h3>
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, officiis esse. Veritatis,
+                            velit excepturi unde, corporis quas autem repellendus, tempore in vero expedita nostrum
+                            sunt! Earum fuga recusandae quisquam voluptas.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 py-5 md:p-5">
+                    <div class="bg-white p-10 rounded-2xl shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="w-10 h-10 text-green-400">
+                            <path fill-rule="evenodd"
+                                d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <h3 class="text-2xl font-bold">Forensic anlysis</h3>
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, officiis esse. Veritatis,
+                            velit excepturi unde, corporis quas autem repellendus, tempore in vero expedita nostrum
+                            sunt! Earum fuga recusandae quisquam voluptas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" p-5 md:p-10 rounded mb-10">
+        <div class="container mx-auto p-0 md:px-28">
+            <div class="bg-green-500 rounded-2xl p-10">
+                <h2 class="font-bold text-2xl text-white text-center">
+                    Companies Who trust on us
+                </h2>
+                <div class="flex flex-wrap mt-8 justify-center">
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="comapny" class="mx-auto max-h-12">
+                    </div>
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="comapny" class="mx-auto max-h-12">
+                    </div>
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="comapny" class="mx-auto max-h-12">
+                    </div>
+                    <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <img src="./assets/dummy_logo.png" alt="comapny" class="mx-auto max-h-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-red-100 p-4 rounded mb-10">
+        <div class="container mx-auto border-black">
+            <div class="pyt-16 md:py-28">
+                <h1 class="text-center text-3xl md:text-5xl font-bold">
+                    Our Portfolio
+                </h1>
+                <p class="md:w-1/2 text-center mx-auto mt-5">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur nisi sint, eligendi numquam
+                    nobis harum repudiandae dolorem consequatur quod, natus, a veritatis odit voluptate eos. Beatae,
+                    odit! Minima, beatae quas?
+                </p>
+            </div>
+            <div class="flex flex-wrap justify-center mb-24">
+                <div class="w-full md:w-1/2 py-10 md:pt-24">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg ">
+                            <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+                            <div class="p-5">
+                                <p>
+                                    <span class="px-2 py-1 bg-green-100 rounded-3xl border border-green-200">
+                                        Design
+                                    </span>
+                                    <span class="px-2 py-1 bg-orange-100 rounded-3xl border border-orange-200">
+                                        brand
+                                    </span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold">Design Item</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-10 md:py-12">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg ">
+                            <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+                            <div class="p-5">
+                                <p>
+                                    <span class="px-2 py-1 bg-green-100 rounded-3xl border border-green-200">
+                                        Design
+                                    </span>
+                                    <span class="px-2 py-1 bg-orange-100 rounded-3xl border border-orange-200">
+                                        brand
+                                    </span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold">Design Item</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-10 md:pt-24">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg ">
+                            <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+                            <div class="p-5">
+                                <p>
+                                    <span class="px-2 py-1 bg-green-100 rounded-3xl border border-green-200">
+                                        Design
+                                    </span>
+                                    <span class="px-2 py-1 bg-orange-100 rounded-3xl border border-orange-200">
+                                        brand
+                                    </span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold">Design Item</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-10 md:py-12">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg ">
+                            <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+                            <div class="p-5">
+                                <p>
+                                    <span class="px-2 py-1 bg-green-100 rounded-3xl border border-green-200">
+                                        Design
+                                    </span>
+                                    <span class="px-2 py-1 bg-orange-100 rounded-3xl border border-orange-200">
+                                        brand
+                                    </span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold">Design Item</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-10 md:pt-24">
+                    <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg ">
+                            <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+                            <div class="p-5">
+                                <p>
+                                    <span class="px-2 py-1 bg-green-100 rounded-3xl border border-green-200">
+                                        Design
+                                    </span>
+                                    <span class="px-2 py-1 bg-orange-100 rounded-3xl border border-orange-200">
+                                        brand
+                                    </span>
+                                </p>
+                                <h3 class="mt-4 text-lg font-bold">Design Item</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex pb-24">
+                <a class="mx-auto bg-purple-600 text-white font-semibold text-lg px-5 py-2 rounded" href="">Explore</a>
+            </div>
+    </section>
+    <section class="bg-green-100 p-4 rounded mb-10">
+        <div class="container mx-auto border-black">
+            <div class="pyt-16 md:py-28">
+                <h1 class="text-center text-3xl md:text-5xl font-bold">
+                    Testimonial
+                </h1>
+                <p class="md:w-1/2 text-center mx-auto mt-5">
+                    what our client says?
+                </p>
+            </div>
+            <div class="mt-12 mb-28">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div class="bg-violet-100 rounded-lg p-10">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-8 h-8 mb-1 text-purple-800">
+                                <path fill-rule="evenodd"
+                                    d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="font-bold">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia! Beatae a
+                                placeat vero adipisci aut autem consequatur esse nobis maiores nam! Id ipsa nobis natus
+                                iste, recusandae atque distinctio.
+                            </span>
+                            <p class="text-purple-900 mt-6 text-lg font-bold">
+                                Name
+                            </p>
+                            <p class="text-gray-400">
+                                Designation, Company
+                            </p>
+                            <p class="flex text-yellow-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                                                                                                                        
+                            </p>
+                        </p>
+                    </div>
+                    <div class="bg-violet-100 rounded-lg p-10">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-8 h-8 mb-1 text-purple-800">
+                                <path fill-rule="evenodd"
+                                    d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="font-bold">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia! Beatae a
+                                placeat vero adipisci aut autem consequatur esse nobis maiores nam! Id ipsa nobis natus
+                                iste, recusandae atque distinctio.
+                            </span>
+                            <p class="text-purple-900 mt-6 text-lg font-bold">
+                                Name
+                            </p>
+                            <p class="text-gray-400">
+                                Designation, Company
+                            </p>
+                            <p class="flex text-yellow-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                                                                                                                        
+                            </p>
+                        </p>
+                    </div>
+                    <div class="bg-violet-100 rounded-lg p-10">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-8 h-8 mb-1 text-purple-800">
+                                <path fill-rule="evenodd"
+                                    d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="font-bold">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia! Beatae a
+                                placeat vero adipisci aut autem consequatur esse nobis maiores nam! Id ipsa nobis natus
+                                iste, recusandae atque distinctio.
+                            </span>
+                            <p class="text-purple-900 mt-6 text-lg font-bold">
+                                Name
+                            </p>
+                            <p class="text-gray-400">
+                                Designation, Company
+                            </p>
+                            <p class="flex text-yellow-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                                                                                                                        
+                            </p>
+                        </p>
+                    </div>
+                    <div class="bg-violet-100 rounded-lg p-10">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-8 h-8 mb-1 text-purple-800">
+                                <path fill-rule="evenodd"
+                                    d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="font-bold">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia! Beatae a
+                                placeat vero adipisci aut autem consequatur esse nobis maiores nam! Id ipsa nobis natus
+                                iste, recusandae atque distinctio.
+                            </span>
+                            <p class="text-purple-900 mt-6 text-lg font-bold">
+                                Name
+                            </p>
+                            <p class="text-gray-400">
+                                Designation, Company
+                            </p>
+                            <p class="flex text-yellow-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                                                                                                                        
+                            </p>
+                        </p>
+                    </div>
+                    <div class="bg-violet-100 rounded-lg p-10">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-8 h-8 mb-1 text-purple-800">
+                                <path fill-rule="evenodd"
+                                    d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="font-bold">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia! Beatae a
+                                placeat vero adipisci aut autem consequatur esse nobis maiores nam! Id ipsa nobis natus
+                                iste, recusandae atque distinctio.
+                            </span>
+                            <p class="text-purple-900 mt-6 text-lg font-bold">
+                                Name
+                            </p>
+                            <p class="text-gray-400">
+                                Designation, Company
+                            </p>
+                            <p class="flex text-yellow-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                                                                                                                        
+                            </p>
+                        </p>
+                    </div>
+                    <div class="bg-violet-100 rounded-lg p-10">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-8 h-8 mb-1 text-purple-800">
+                                <path fill-rule="evenodd"
+                                    d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="font-bold">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia! Beatae a
+                                placeat vero adipisci aut autem consequatur esse nobis maiores nam! Id ipsa nobis natus
+                                iste, recusandae atque distinctio.
+                            </span>
+                            <p class="text-purple-900 mt-6 text-lg font-bold">
+                                Name
+                            </p>
+                            <p class="text-gray-400">
+                                Designation, Company
+                            </p>
+                            <p class="flex text-yellow-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                  </svg>
+                                                                                                                                        
+                            </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
